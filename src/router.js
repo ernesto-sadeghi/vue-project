@@ -5,7 +5,7 @@ import UsersPage from './components/UsersPage.vue'
 import ShowPost from './components/ShowPost.vue'
 import ShowUser from './components/ShowUser.vue'
 import TemplatePost from './components/TemplatePost.vue'
-import TemplateUsers from './TemplateUsers.vue'
+import TemplateUsers from './components/TemplateUsers.vue'
 import CreatePost from './components/CreatePost.vue'
 import EditPost from './components/EditPost.vue'
 const routes = [

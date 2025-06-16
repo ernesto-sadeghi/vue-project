@@ -1,5 +1,5 @@
 <template>
-  
+  <h1>cardview</h1>
 </template>
 
 <script>
