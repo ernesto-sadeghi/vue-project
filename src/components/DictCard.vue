@@ -198,7 +198,7 @@ body {
     display: inline-block;
     transition: all 0.2s ease;
 }
-.dark-mode .synooym-badge {
+.dark-mode .synonym-badge {
     background-color: #41b883;
     
 }
@@ -208,7 +208,7 @@ body {
     color: white;
     transform: translateY(-2px);
 }
-.dark-mode .synooym-badge:hover {
+.dark-mode .synonym-badge:hover {
     background-color: #a8dec6;
     
     
