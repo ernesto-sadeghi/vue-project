@@ -47,17 +47,17 @@
     </div>
 </template>
 
-<script>
-import { ref } from 'vue';
+<script setup>
+import { ref , defineProps} from 'vue';
 
-export default {
-    props: {
+
+ const props = defineProps({
         data: Object,
         word: String,
         phonetic: String,
         audio: String
-    },
-    setup(props) {
+})
+   
         const audioPlayer = ref(null);
 
         const playAudio = () => {
@@ -77,12 +77,9 @@ export default {
             });
         };
 
-        return {
-            props,
-            playAudio
-        };
-    }
-}
+       
+    
+
 </script>
 
 <style scoped>
@@ -180,6 +177,10 @@ body {
     line-height: 1.7;
     color: #444;
 }
+.dark-mode .meaning-text {
+    line-height: 1.7;
+    color: #eee;
+}
 
 .synonyms-section {
     margin-top: 1.5rem;
@@ -197,11 +198,20 @@ body {
     display: inline-block;
     transition: all 0.2s ease;
 }
+.dark-mode .synooym-badge {
+    background-color: #41b883;
+    
+}
 
 .synonym-badge:hover {
     background-color: #41b883;
     color: white;
     transform: translateY(-2px);
+}
+.dark-mode .synooym-badge:hover {
+    background-color: #a8dec6;
+    
+    
 }
 
 .antonym-badge {
@@ -214,11 +224,18 @@ body {
     display: inline-block;
     transition: all 0.2s ease;
 }
+.dark-mode .antonym-badge {
+    background-color: #b84141;
+}
 
 .antonym-badge:hover {
     background-color: #b84141;
     color: white;
     transform: translateY(-2px);
+}
+.dark-mode .antonym-badge:hover {
+    background-color: #dea8a8;
+    
 }
 
 .empty-state {
