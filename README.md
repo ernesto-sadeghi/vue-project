@@ -1,29 +1,5 @@
 # vue-project
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-
 Vue Dictionary App - GitHub Project Description
 🔹 Overview:
 A Vue 3 web application featuring:
@@ -59,3 +35,24 @@ Follows best practices in Vue 3 development.
 Uses modern <script setup> for better readability.
 
 Clean, modular, and scalable structure.
+
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
