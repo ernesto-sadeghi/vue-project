@@ -34,9 +34,11 @@ Follows best practices in Vue 3 development.
 
 Uses modern <script setup> for better readability.
 
+
 Clean, modular, and scalable structure.
 
-
+## live demo :
+http://ahmadinejjjj.freehost.io 
 ## Project setup
 ```
 npm install
